@@ -1,7 +1,7 @@
 
-DROP TABLE IF EXISTS usuarios CASCADE;
+DROP TABLE IF EXISTS marcas CASCADE;
 
-CREATE TABLE usuarios
+CREATE TABLE marcas
 (
     id bigserial NOT NULL,
     nombre text NOT NULL,
